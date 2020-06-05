@@ -1,12 +1,13 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:100,300,300i,400');
 html{
   scroll-behavior: smooth;
+  background-color: #232323;
+  color: white;
 }
 body{
     padding: 0;
     margin: 0;
     font-family: 'HelveticaNeue';
-    background-color: #f2f2f2;
     overflow-x: hidden;
 }
 
@@ -26,6 +27,59 @@ padding-top: 12em;
 padding-bottom: 18%;
 color: white;
 }
+/* login */
+.wrapper h1{
+  color: #E6C232;
+}
+.wrapper {
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 460px;
+  padding: 10px;
+  text-align: center;
+  background-color: rgba(126, 126, 126, 0.37);
+  height: 600px;
+
+  
+}
+.login{
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  text-align: left;
+}
+.login button{
+  text-decoration: none;
+  background-color: #E6C232;
+  border-radius: 10px;
+  color: white;
+  padding: 12px 20px;
+  display: block;
+  width: 100px;
+  cursor: pointer;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  border: #0C6400;
+  font-size: 1em;
+}
+input {
+  border: 1px solid white;
+  margin: 0;
+  padding: 0;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  background-color: rgba(43, 43, 43, 0);
+  color: white;
+  font-size: 1em;
+  padding-top: 0.5em;
+  margin-bottom: 10px;
+}
+
 .showme{
   margin-left: auto;
   margin-right: auto;
@@ -118,9 +172,29 @@ color: white;
         .navibar a:hover {
           background-color: rgba(141, 141, 141, 0.404);
         }
+        /*watch
+        */
         .watchpage{
-          background-color: #474747;
-          height:500px;
+          background-color: #232323;
+        }
+        .sec1{
+          color: white;
+          float: left;
+          width: 20%
+        }
+        .sec1 input{
+          margin-bottom: 30px;
+        }
+        #order_review.woocommerce-checkout-review-order
+        .sec2{
+          color: white;
+          float: right;
+          width: 80%;
+        }
+        .sec1{
+          color: white;
+          float: left;
+          width: 20%
         }
         .sub{
           height: 100%;
@@ -176,6 +250,10 @@ color: white;
         .subsc__box p, .subscgold__box p{
           margin-bottom: 30px;
         }
+        .watches__box a{
+          text-decoration: none;
+          color: white;
+        }
         .See1{
           text-align: center;
           margin-left: auto;
@@ -208,6 +286,206 @@ color: white;
           text-decoration: none;
           color: white;
         }
+        .watches__pro {
+          display: grid;
+          color: black;
+          grid-template-columns: 1fr 1fr 1fr 1fr;
+          grid-gap: 30px; 
+        }
+        .watches__box {
+          width: 90%;
+          margin: 0 auto;
+          box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
+          background: #575757;
+          padding: 1em 1em;
+          color: white;
+          text-align: center; 
+        }
+        .watches__box img{
+          width: 50%;
+        }
+        .watches__box h3{
+          text-align: center;
+          color: #E6C232;
+        }
+        .Brand{
+          width: 80%;
+          border-bottom: 1px #E6C232 solid;
+        }
+        .sec1 h3{
+          border-bottom: 1px #E6C232 solid;
+          font-size: 25px;
+          border-width: 80%;
+          padding-bottom: 20px;
+        }
+        .range img{
+          width: 95%;
+          margin-bottom: 10px;
+        }
+        .range p{
+          width: 50%;
+          float: left;
+        }
+        .range{
+          width: 80%;
+          border-bottom: 1px #E6C232 solid;
+        }
+        .Condition{
+          width: 80%;
+        }
+        .se3 {
+          color: white;
+          float: left;
+          background-color: #232323;
+        }
+        .se2{
+          color: white;
+          float: right;
+          width: 55%;
+          background-color: #232323;
+          padding-top: 60px;
+        }
+        .se1{
+          color: white;
+          float: left;
+          width: 45%;
+          background-color: #232323;
+          padding-top: 60px;
+        
+        }
+        .imgcont{
+          margin-left: auto;
+          margin-right: auto;
+          text-align: center;
+          width: 90%;
+          margin-top: 25px;
+          padding-top: 30px;
+          padding-bottom: 30px;
+          background-color: #333333;
+        }
+        .imgcont img{
+          width: 60%;
+        }
+        .se1 p{
+          margin-left: 10px;
+        }
+        .se3 p{
+          margin-left: 10px;
+          margin-bottom: 150px;
+        }
+        .productpay{
+          width: 50%;
+          float: left;
+        }
+        .status{
+          margin-top: 10px;
+          float: right;
+          width: 45%;
+        }
+        .status p{
+          width: 50%;
+          float: left;
+          border-top: 1px #E6C232 solid;
+          
+        }
+        .payment{
+          border-bottom: 1px #E6C232 solid;
+        }
+        .payment img{
+          width: 60%;
+        }
+        .knopje {
+          text-decoration: none;
+          background-color: #E6C232;
+          border-radius: 4px;
+          color: white;
+          padding: 12px 70px;
+          cursor: pointer;
+          margin-bottom: 20px;
+          margin-top: 100px;
+          text-align: center;
+      }
+      .payment img:hover {
+        background-color: yellow;
+      }
+      .section1{
+        margin-left: 10px;
+        color: white;
+        float: left;
+        width: 30%;
+        background-color: #232323;
+        padding-top: 60px;
+      
+      }
+      .section2{
+        color: white;
+        float: left;
+        width: 30%;
+        background-color: #232323;
+        padding-top: 60px;
+      
+      }
+      .section3{
+        color: white;
+        float: left;
+        background-color: #232323;
+        padding-top: 60px;
+      
+      }
+      .section3 img{
+        width: 50px;
+        float: left;
+        margin-right: 8px;
+      }
+      .section1 h2{
+        color: #E6C232 ;
+      }
+      .section2 h2{
+        color: #E6C232 ;
+      }
+      .section3 h2{
+        color: #E6C232 ;
+      }
+      select{
+        background: #232323;
+        border: #8d8d8d solid 1px; 
+        color: white;
+        margin-bottom: 17px;
+        width: 100px;
+      }
+      b{
+        margin-top: 10px
+      }
+      .knop {
+        text-decoration: none;
+        background-color: #E6C232 ;
+        border-radius: 4px;
+        color: white;
+        padding: 12px 40px;
+        cursor: pointer;
+        margin-bottom: 20px;
+        margin-top: 10px;
+        text-align: center;
+    }
+   
+    .section3 .knop{
+      float: left;
+    }
+    .knop:hover{
+    background-color: rgb(161, 135, 31) ;
+    }
+    .thanks{
+      margin-left: auto;
+      margin-right: auto;
+      width: 60%;
+      text-align: left;
+    }
+    a.back{
+      color: rgb(84, 111, 231) ;
+    }
+    a.back:hover{
+      color: rgb(52, 77, 189) ;
+    }
         @media only screen and (min-width: 901px) {
           .subsc {
             height: 100vh;
@@ -230,3 +508,10 @@ color: white;
         width: 50%;
     }
     }
+    @media only screen and (max-width: 440px) {
+      .subsc__box, .subscgold__box {
+        width: 80%;
+    }
+
+    }
+    
