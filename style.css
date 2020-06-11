@@ -185,13 +185,15 @@ input {
         .sec1 input{
           margin-bottom: 30px;
         }
-        #order_review.woocommerce-checkout-review-order
+     
         .sec2{
+          margin-right: 10px;
           color: white;
           float: right;
-          width: 80%;
+          width: 75%;
         }
         .sec1{
+          margin-left: 10px;
           color: white;
           float: left;
           width: 20%
@@ -393,6 +395,7 @@ input {
         }
         .payment img{
           width: 60%;
+          margin-bottom: 7px;
         }
         .knopje {
           text-decoration: none;
@@ -498,7 +501,8 @@ input {
         .subsc__box, .subscgold__box {
           width: 90%;
       }
-      }
+      
+    }
       @media only screen and (max-width: 900px) {
         .subsc {
           grid-template-columns: 1fr;
@@ -507,7 +511,51 @@ input {
       .subsc__box, .subscgold__box {
         width: 50%;
     }
+    .sec2{
+      margin-left: 15px;
+      width: 95%;
+      float: left;
     }
+    .sec1{
+      margin-left: 10px;
+      width: 100%
+    }
+    .watches__pro {
+      grid-template-columns: 1fr 1fr;
+      grid-gap: 30px;
+    }
+    .watches__box{
+      width: 80%;
+    }
+    .se1{
+      width: 100%;
+    }
+    .se2 {
+        float: left;
+        margin-left: 15px;
+        width: 90%;
+        margin-bottom: 20px;
+  }
+  .se3{
+    text-align: center;
+    margin-bottom: 40px;
+    width: 100%;
+  }
+  .se3 p {
+    margin-left: 10px;
+    margin-bottom: 40px;
+}
+.productpay {
+  text-align: center;
+  float: none;
+  width: 100%;
+}
+.status {
+  margin-top: 20px;
+  width: 100%;
+  float:none;
+}
+  }
     @media only screen and (max-width: 440px) {
       .subsc__box, .subscgold__box {
         width: 80%;
