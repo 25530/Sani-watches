@@ -151,9 +151,10 @@ input {
           display: block;
           color: #f2f2f2;
           text-align: center;
+          margin-top: 5px;
           padding: 14px 16px;
           text-decoration: none;
-          font-size: 17px;
+          font-size: 19px;
         }
         
         .topnav a:hover {
