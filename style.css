@@ -1,10 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:100,300,300i,400');
-html{
-  scroll-behavior: smooth;
-  background-color: #232323;
-  color: white;
+
+html {
+    scroll-behavior: smooth;
+    background-color: #232323;
+    color: white;
 }
-body{
+
+body {
     height: 100%;
     padding: 0;
     margin: 0;
@@ -13,630 +15,748 @@ body{
 }
 
 .home {
-  background:
-
-url(images/home.png);
-background-color: rgb(5, 5, 5);
-background-blend-mode: screen;
-background-size: cover;
-background-repeat: no-repeat;
-background-position: center center;
-width: 100vw;
-text-align: center;
-padding-top: 12em;
-padding-bottom: 18%;
-color: white;
+    background: url(images/home.png);
+    background-color: rgb(5, 5, 5);
+    background-blend-mode: screen;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 100vw;
+    text-align: center;
+    padding-top: 12em;
+    padding-bottom: 18%;
+    color: white;
 }
+
 /* login */
-.wrapper h1{
-  font-size: 50px;
-  font-weight: 100;
-  color: white;
+.wrapper h1 {
+    font-size: 50px;
+    font-weight: 100;
+    color: white;
 }
+
 .wrapper {
-  margin-left: 25px;
-  width: 460px;
-  text-align: left;
+    margin-left: 25px;
+    width: 460px;
+    text-align: left;
 }
-.login{
-  width: 100%;
-  text-align: left;
+
+.login {
+    width: 100%;
+    text-align: left;
 }
-.login a{
-  margin-right: 40px;
-  line-height: 50px;
-  color: rgb(27, 128, 245) !important;
+
+.login a {
+    margin-right: 40px;
+    line-height: 50px;
+    color: rgb(27, 128, 245) !important;
 }
-.login a:hover{
-  color: rgb(52, 77, 189) !important;
+
+.login a:hover {
+    color: rgb(52, 77, 189) !important;
 }
-.login button{
-  text-decoration: none;
-  background-color: rgb(146, 146, 146);
-  border-radius: 10px;
-  color: white;
-  padding: 12px 20px;
-  display: block;
-  width: 100px;
-  cursor: pointer;
-  margin-top: 10px;
-  margin-bottom: 20px;
-  text-align: center;
-  border: #0C6400;
-  font-size: 1em;
+
+.login button {
+    text-decoration: none;
+    background-color: rgb(146, 146, 146);
+    border-radius: 10px;
+    color: white;
+    padding: 12px 20px;
+    display: block;
+    width: 100px;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+    border: #0C6400;
+    font-size: 1em;
 }
+
 input {
-  border: 1px solid white;
-  margin: 0;
-  padding: 0;
-  border-top: 0px;
-  border-left: 0px;
-  border-right: 0px;
-  background-color: rgba(43, 43, 43, 0);
-  color: white;
-  font-size: 1em;
-  padding-top: 0.5em;
-  margin-bottom: 10px;
+    border: 1px solid white;
+    margin: 0;
+    padding: 0;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    background-color: rgba(43, 43, 43, 0);
+    color: white;
+    font-size: 1em;
+    padding-top: 0.5em;
+    margin-bottom: 10px;
 }
-.wrapper input{
-  width: 100%;
+
+.wrapper input {
+    width: 100%;
 }
-.showme{
-  margin-left: auto;
-  margin-right: auto;
-  border-radius: 5px;
-  margin-top: 100px;
-  width: 130px;
-  padding: 1em;
-  background-color: rgba(255, 255, 255, 0.37);
+
+.showme {
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    margin-top: 100px;
+    width: 130px;
+    padding: 1em;
+    background-color: rgba(255, 255, 255, 0.37);
 }
-.home img{
-  width: 100%;
-  height: 100%;
-  
+
+.home img {
+    width: 100%;
+    height: 100%;
+
 }
-.home a{
-  text-decoration: none;
-  color: white;
+
+.home a {
+    text-decoration: none;
+    color: white;
 }
+
 .products {
-    padding-bottom: 5em; 
+    padding-bottom: 5em;
 }
-    .products__pro {
-      display: grid;
-      color: black;
-      grid-template-columns: 1fr 1fr 1fr 1fr;
-      grid-gap: 30px; 
-    }
-    .products__box {
-      width: 70%;
-      margin: 0 auto;
-      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
-      background: rgba(255, 255, 255, 0.45);
-      padding: 1em 1em;
-      text-align: center; 
-    }
-  
-     .twofield {
-        padding-bottom: 5em; 
-    }
-        .twofield__pro {
-          display: grid;
-          color: black;
-          grid-template-columns: 1fr 1fr;
-          grid-gap: 30px; 
-        }
-        .twofield__box {
-          width: 70%;
-          margin: 0 auto;
-          box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
-          background: rgba(136, 136, 136, 0.45);
-          padding: 1em 1em;
-          text-align: center; 
-        }
-        /* Header*/
-       
-        .Sani{
-          color: #E6C232 !important;
-          font-size: 30px !important;
-          margin-top: 0 !important;
-        }
-        .topnav {
-          overflow: hidden;
-          background-color: #333;
-        }
-        
-        .topnav a {
-          float: left;
-          display: block;
-          color: #f2f2f2;
-          text-align: center;
-          margin-top: 5px;
-          padding: 14px 16px;
-          text-decoration: none;
-          font-size: 19px;
-        }
-        
-        .topnav a:hover {
-          background-color: #ddd;
-          color: black;
-        }
-  
-        .topnav a.active {
-          color: #E6C232 !important;
-          font-size: 30px !important;
-          margin-top: 0 !important;
-        }
-        
-        .topnav .icon {
-          display: none;
-        }
-        @media screen and (min-width: 600px) {
-          .topnav a.active {
-            float: left;
-        }
-        .topnav a {
-          float: right;
-      }
-        }
-        @media screen and (max-width: 600px) {
-          .topnav a:not(:first-child) {display: none;}
-          .topnav a.icon {
-            float: right;
-            display: block;
-          }
-        }
-        
-        @media screen and (max-width: 600px) {
-          .topnav.responsive {position: relative;}
-          .topnav.responsive .icon {
-            position: absolute;
-            right: 0;
-            top: 0;
-          }
-          .topnav.responsive a {
-            float: none;
-            display: block;
-            text-align: left;
-          }
-        }
-      /*
-        .topnav {
-          overflow: hidden;
-          background-color: #333;
-        }
-        /*
-        .navibar a {
-          float: right;
-          display: block;
-          color: #f2f2f2;
-          text-align: center;
-          padding: 14px 16px;
-          text-decoration: none;
-          font-size: 17px;
-          margin-top: 10px;
-        }
-        
-        .navibar a:hover {
-          background-color: rgba(141, 141, 141, 0.404);
-        }
 
-        /*watch
-        */
-        .watchpage {
-          margin-left: auto;
-          margin-right: auto;
-          width: 92%;
-          background-color: #232323;
-      }
-        .sec1{
-          color: white;
-          float: left;
-          width: 20%
-        }
-        .sec1 input{
-          margin-bottom: 30px;
-        }
-     
-        .sec2{
-          margin-right: 10px;
-          color: white;
-          float: right;
-          width: 75%;
-        }
-        .sec1{
-          margin-left: 10px;
-          color: white;
-          float: left;
-          width: 20%
-        }
-        .sub{
-          height: 100%;
-          margin: 0;
-          padding: 0;
-          background-color: #232323;
-          
-        }
-        .subsc {
-          display: grid;
-          grid-template-columns: 1fr 1fr 1fr ;
-          grid-gap: 50px; 
-        }
-        .subsc h2,.subsc h3{
-          text-align: center;
-        }
-        .subsc h2{
-        font-weight: 300;
-        }
-        .subsc h3{
-          font-size: 25px;
-        }
-        .subsc p{
-          margin-left:  15px;
-        }
-        .subscgold__box h2, .subscgold__box h3{
-          color: #E6C232;
-        }
-        .subscgold__box h2{
-          font-size: 35px !important;
-          font-weight: lighter;
-        }
-        .subscgold__box{
-          box-shadow: 0px 0px 12px 5px rgba(230,194,50,1);
-          margin-top: 50px;
-          margin-bottom: 50px;
-          height: 550px !important;
-        }
-        .subsc__box{
-          box-shadow: 0px 0px 12px 5px rgba(255,255,255,1);
-          margin-top: 100px;
-          margin-bottom: 50px;
-          height: 500px;
-        }
-        .subsc__box, .subscgold__box{
-          border-radius: 5px;
-          margin-left: auto;
-          margin-right: auto;
-          color: white;
-          background-color: #444444;
-          width: 80%;
-        }
-        .subsc__box p, .subscgold__box p{
-          margin-bottom: 30px;
-        }
-        .watches__box a{
-          text-decoration: none;
-          color: white;
-        }
-        .See1{
-          text-align: center;
-          margin-left: auto;
-          margin-right: auto;
-          border-radius: 5px;
-          margin-top: 127px;
-          margin-bottom: 15px;
-          width: 140px;
-          padding: 1em;
-          background-color: rgba(126, 126, 126, 0.37);
-        }
-        .holder{
-          height: 20px;
-        }
-        .See2{
-          text-align: center;
-          margin-left: auto;
-          margin-right: auto;
-          border-radius: 5px;
-          margin-bottom: 15px;
-          margin-top: 60px;
-          width: 140px;
-          padding: 1em;
-          background-color: #E6C232;
-          
-        }
+.products__pro {
+    display: grid;
+    color: black;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 30px;
+}
 
-        .See1 a, .See2 a{
-          
-          text-decoration: none;
-          color: white;
-        }
-        .watches__pro {
-          display: grid;
-          color: black;
-          grid-template-columns: 1fr 1fr 1fr 1fr;
-          grid-gap: 30px; 
-        }
-        .watches__box {
-          width: 90%;
-          margin: 0 auto;
-          box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
-          background: #575757;
-          padding: 1em 1em;
-          color: white;
-          text-align: center; 
-        }
-        .watches__box img{
-          width: 50%;
-        }
-        .watches__box h3{
-          text-align: center;
-          color: #E6C232;
-        }
-        .Brand{
-          width: 80%;
-          border-bottom: 1px #E6C232 solid;
-        }
-        .sec1 h3{
-          border-bottom: 1px #E6C232 solid;
-          font-size: 25px;
-          border-width: 80%;
-          padding-bottom: 20px;
-        }
-        .range img{
-          width: 95%;
-          margin-bottom: 10px;
-        }
-        .range p{
-          width: 50%;
-          float: left;
-        }
-        .range{
-          width: 80%;
-          border-bottom: 1px #E6C232 solid;
-        }
-        .Condition{
-          width: 80%;
-        }
-        .se3 {
-          color: white;
-          float: left;
-          background-color: #232323;
-        }
-        .se2{
-          color: white;
-          float: right;
-          width: 55%;
-          background-color: #232323;
-          padding-top: 60px;
-        }
-        .se1{
-          color: white;
-          float: left;
-          width: 45%;
-          background-color: #232323;
-          padding-top: 60px;
-        
-        }
-        .imgcont{
-          margin-left: auto;
-          margin-right: auto;
-          text-align: center;
-          width: 90%;
-          margin-top: 25px;
-          padding-top: 30px;
-          padding-bottom: 30px;
-          background-color: #333333;
-        }
-        .imgcont img{
-          width: 60%;
-        }
-        .se1 p{
-          margin-left: 10px;
-        }
-        .se3 p{
-          margin-left: 10px;
-          margin-bottom: 150px;
-        }
-        .productpay{
-          width: 50%;
-          float: left;
-        }
-        .status{
-          margin-top: 10px;
-          float: right;
-          width: 45%;
-        }
-        .status p{
-          width: 50%;
-          padding-top: 5px;
-          float: left;
-          border-top: 1px #E6C232 solid;
-          
-        }
-        .payment{
-          border-bottom: 1px #E6C232 solid;
-        }
-        .payment img{
-          width: 60%;
-          margin-bottom: 7px;
-        }
-        .knopje {
-          text-decoration: none;
-          background-color: #E6C232;
-          border-radius: 4px;
-          color: white;
-          padding: 12px 70px;
-          cursor: pointer;
-          margin-bottom: 20px;
-          margin-top: 100px;
-          text-align: center;
-      }
-      .payment img:hover {
-        background-color: yellow;
-      }
-      .section1{
-        margin-left: 10px;
-        color: white;
-        float: left;
-        width: 30%;
-        background-color: #232323;
-        padding-top: 60px;
-      
-      }
-      .section2{
-        color: white;
-        float: left;
-        width: 30%;
-        background-color: #232323;
-        padding-top: 60px;
-      
-      }
-      .section3{
-        color: white;
-        float: left;
-        background-color: #232323;
-        padding-top: 60px;
-      
-      }
-      .section3 img{
-        width: 50px;
-        float: left;
-        margin-right: 8px;
-      }
-      .section1 h2{
-        color: #E6C232 ;
-      }
-      .section2 h2{
-        color: #E6C232 ;
-      }
-      .section3 h2{
-        color: #E6C232 ;
-      }
-      select{
-        background: #232323;
-        border: #8d8d8d solid 1px; 
-        color: white;
-        margin-bottom: 17px;
-        width: 100px;
-      }
-      b{
-        line-height: 25px;
-        margin-top: 10px
-      }
-      .knop {
-        text-decoration: none;
-        background-color: #E6C232 ;
-        border-radius: 4px;
-        color: white;
-        padding: 12px 40px;
-        cursor: pointer;
-        margin-bottom: 20px;
-        margin-top: 10px;
-        text-align: center;
-    }
-   
-    .section3 .knop{
-      float: left;
-    }
-    .knop:hover{
-    background-color: rgb(161, 135, 31) ;
-    }
-    .thanks{
-      margin-left: auto;
-      margin-right: auto;
-      width: 60%;
-      text-align: left;
-    }
-    a.back{
-      color: rgb(84, 111, 231) ;
-    }
-    a.back:hover{
-      color: rgb(52, 77, 189) ;
-    }
-        @media only screen and (min-width: 901px) {
-          .subsc {
-            height: 100vh;
-          }
-        }
-        @media only screen and (max-width: 1085px) {
-          .subsc {
-            grid-gap: 0px;  
-        }
-        .subsc__box, .subscgold__box {
-          width: 90%;
-      }
-      
-    }
-      @media only screen and (max-width: 900px) {
-        .subsc {
-          grid-template-columns: 1fr;
+.products__box {
+    width: 70%;
+    margin: 0 auto;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
+    background: rgba(255, 255, 255, 0.45);
+    padding: 1em 1em;
+    text-align: center;
+}
 
-      }
-      .subsc__box, .subscgold__box {
+.twofield {
+    padding-bottom: 5em;
+}
+
+.twofield__pro {
+    display: grid;
+    color: black;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 30px;
+}
+
+.twofield__box {
+    width: 70%;
+    margin: 0 auto;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
+    background: rgba(136, 136, 136, 0.45);
+    padding: 1em 1em;
+    text-align: center;
+}
+
+/* Header*/
+
+.Sani {
+    color: #E6C232 !important;
+    font-size: 30px !important;
+    margin-top: 0 !important;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    margin-top: 5px;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 19px;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.topnav a.active {
+    color: #E6C232 !important;
+    font-size: 30px !important;
+    margin-top: 0 !important;
+}
+
+.topnav .icon {
+    display: none;
+}
+
+@media screen and (min-width: 600px) {
+    .topnav a.active {
+        float: left;
+    }
+
+    .topnav a {
+        float: right;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .topnav a:not(:first-child) {
+        display: none;
+    }
+
+    .topnav a.icon {
+        float: right;
+        display: block;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .topnav.responsive {
+        position: relative;
+    }
+
+    .topnav.responsive .icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    .topnav.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+}
+
+/*
+  .topnav {
+    overflow: hidden;
+    background-color: #333;
+  }
+  /*
+  .navibar a {
+    float: right;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    margin-top: 10px;
+  }
+
+  .navibar a:hover {
+    background-color: rgba(141, 141, 141, 0.404);
+  }
+
+  /*watch
+  */
+.watchpage {
+    margin-left: auto;
+    margin-right: auto;
+    width: 92%;
+    background-color: #232323;
+}
+
+.sec1 {
+    color: white;
+    float: left;
+    width: 20%
+}
+
+.sec1 input {
+    margin-bottom: 30px;
+}
+
+.sec2 {
+    margin-right: 10px;
+    color: white;
+    float: right;
+    width: 75%;
+}
+
+.sec1 {
+    margin-left: 10px;
+    color: white;
+    float: left;
+    width: 20%
+}
+
+.sub {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #232323;
+
+}
+
+.subsc {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 50px;
+}
+
+.subsc h2, .subsc h3 {
+    text-align: center;
+}
+
+.subsc h2 {
+    font-weight: 300;
+}
+
+.subsc h3 {
+    font-size: 25px;
+}
+
+.subsc p {
+    margin-left: 15px;
+}
+
+.subscgold__box h2, .subscgold__box h3 {
+    color: #E6C232;
+}
+
+.subscgold__box h2 {
+    font-size: 35px !important;
+    font-weight: lighter;
+}
+
+.subscgold__box {
+    box-shadow: 0px 0px 12px 5px rgba(230, 194, 50, 1);
+    margin-top: 50px;
+    margin-bottom: 50px;
+    height: 550px !important;
+}
+
+.subsc__box {
+    box-shadow: 0px 0px 12px 5px rgba(255, 255, 255, 1);
+    margin-top: 100px;
+    margin-bottom: 50px;
+    height: 500px;
+}
+
+.subsc__box, .subscgold__box {
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    background-color: #444444;
+    width: 80%;
+}
+
+.subsc__box p, .subscgold__box p {
+    margin-bottom: 30px;
+}
+
+.watches__box a {
+    text-decoration: none;
+    color: white;
+}
+
+.See1 {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    margin-top: 127px;
+    margin-bottom: 15px;
+    width: 140px;
+    padding: 1em;
+    background-color: rgba(126, 126, 126, 0.37);
+}
+
+.holder {
+    height: 20px;
+}
+
+.See2 {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    margin-top: 60px;
+    width: 140px;
+    padding: 1em;
+    background-color: #E6C232;
+
+}
+
+.See1 a, .See2 a {
+
+    text-decoration: none;
+    color: white;
+}
+
+.watches__pro {
+    display: grid;
+    color: black;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 30px;
+}
+
+.watches__box {
+    width: 90%;
+    margin: 0 auto;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
+    background-color: #303030;
+    padding: 1em 1em;
+    color: white;
+    text-align: center;
+}
+
+.watches__box img {
+    width: 50%;
+}
+
+.watches__box h3 {
+    text-align: center;
+    color: #E6C232;
+}
+
+.Brand {
+    width: 80%;
+    border-bottom: 1px #E6C232 solid;
+}
+
+.sec1 h3 {
+    border-bottom: 1px #E6C232 solid;
+    font-size: 25px;
+    border-width: 80%;
+    padding-bottom: 20px;
+}
+
+.range img {
+    width: 95%;
+    margin-bottom: 10px;
+}
+
+.range p {
+    width: 50%;
+    float: left;
+}
+
+.range {
+    width: 80%;
+    border-bottom: 1px #E6C232 solid;
+}
+
+.Condition {
+    width: 80%;
+}
+
+.se3 {
+    color: white;
+    float: left;
+    background-color: #232323;
+}
+
+.se2 {
+    color: white;
+    float: right;
+    width: 55%;
+    background-color: #232323;
+    padding-top: 60px;
+}
+
+.se1 {
+    color: white;
+    float: left;
+    width: 45%;
+    background-color: #232323;
+    padding-top: 60px;
+
+}
+
+.imgcont {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 90%;
+    margin-top: 25px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #333333;
+}
+
+.singleproduct-imgcont .imgcont {
+    box-shadow: 0px 0px 12px 5px rgba(230, 194, 50, 1);
+    background-color: #232323;
+}
+
+.singleproduct1 .imgcont {
+    box-shadow: 0px 0px 12px 5px rgba(230, 194, 50, 1);
+}
+
+.imgcont img {
+    width: 60%;
+}
+
+.se1 p {
+    margin-left: 10px;
+}
+
+.se3 p {
+    margin-left: 10px;
+    margin-bottom: 150px;
+}
+
+.productpay {
+    width: 50%;
+    float: left;
+}
+
+.status {
+    margin-top: 10px;
+    float: right;
+    width: 45%;
+}
+
+.status p {
+    width: 50%;
+    padding-top: 5px;
+    float: left;
+    border-top: 1px #E6C232 solid;
+
+}
+
+.payment {
+    border-bottom: 1px #E6C232 solid;
+}
+
+.payment-icons {
+  display: table;
+}
+
+.payment-icons-in {
+  display: table-cell;
+}
+
+.payment-icons-in img:hover {
+  background-color: #E6C232;
+}
+
+.knopje {
+    text-decoration: none;
+    background-color: #E6C232;
+    border-radius: 4px;
+    color: white;
+    padding: 12px 70px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    margin-top: 100px;
+    text-align: center;
+}
+
+.section1 {
+    margin-left: 10px;
+    color: white;
+    float: left;
+    width: 30%;
+    background-color: #232323;
+    padding-top: 60px;
+
+}
+
+.section2 {
+    color: white;
+    float: left;
+    width: 30%;
+    background-color: #232323;
+    padding-top: 60px;
+
+}
+
+.section3 {
+    color: white;
+    float: left;
+    background-color: #232323;
+    padding-top: 60px;
+
+}
+
+.section3 img {
+    width: 50px;
+    float: left;
+    margin-right: 8px;
+}
+
+.section1 h2 {
+    color: #E6C232;
+}
+
+.section2 h2 {
+    color: #E6C232;
+}
+
+.section3 h2 {
+    color: #E6C232;
+}
+
+select {
+    background: #232323;
+    border: #8d8d8d solid 1px;
+    color: white;
+    margin-bottom: 17px;
+    width: 100px;
+}
+
+b {
+    line-height: 25px;
+    margin-top: 10px
+}
+
+.knop {
+    text-decoration: none;
+    background-color: #E6C232;
+    border-radius: 4px;
+    color: white;
+    padding: 12px 40px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.section3 .knop {
+    float: left;
+}
+
+.knop:hover {
+    background-color: rgb(161, 135, 31);
+}
+
+.thanks {
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    text-align: left;
+}
+
+a.back {
+    color: rgb(84, 111, 231);
+}
+
+a.back:hover {
+    color: rgb(52, 77, 189);
+}
+
+@media only screen and (min-width: 901px) {
+    .subsc {
+        height: 100vh;
+    }
+}
+
+@media only screen and (max-width: 1085px) {
+    .subsc {
+        grid-gap: 0px;
+    }
+
+    .subsc__box, .subscgold__box {
+        width: 90%;
+    }
+
+}
+
+@media only screen and (max-width: 900px) {
+    .subsc {
+        grid-template-columns: 1fr;
+
+    }
+
+    .subsc__box, .subscgold__box {
         width: 50%;
     }
-    .sec2{
-      margin-left: 15px;
-      width: 95%;
-      float: left;
+
+    .sec2 {
+        margin-left: 15px;
+        width: 95%;
+        float: left;
     }
-    .sec1{
-      margin-left: 10px;
-      width: 100%
+
+    .sec1 {
+        margin-left: 10px;
+        width: 100%
     }
+
     .watches__pro {
-      grid-template-columns: 1fr 1fr;
-      grid-gap: 30px;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 30px;
     }
-    .watches__box{
-      width: 80%;
+
+    .watches__box {
+        width: 80%;
     }
-    .se1{
-      width: 100%;
+
+    .se1 {
+        width: 100%;
     }
+
     .se2 {
         float: left;
         width: 100%;
         margin-bottom: 20px;
-  }
-  .se3{
-    text-align: center;
-    margin-bottom: 40px;
-    width: 100%;
-  }
-  .se3 p {
-    margin-left: 10px;
-    margin-bottom: 40px;
-}
-.productpay {
-  text-align: center;
-  float: none;
-  width: 100%;
-}
-.status {
-  margin-top: 20px;
-  width: 100%;
-  float:none;
-}
-  }
-
-    @media only screen and (max-width: 440px) {
-      .subsc__box, .subscgold__box {
-        width: 80%;
     }
 
-    }
-    @media only screen and (max-width: 511px){
-      .wrapper{
-          margin-left: auto;
-          margin-right: auto;
-          width: 90%;
-      }
-      .wrapper input {
-        width: 80%;
-      }
-    }
-    @media only screen and (max-width: 700px){
-      .section1{
-        width:100%;
-      }
-      .section2{
+    .se3 {
+        text-align: center;
+        margin-bottom: 40px;
         width: 100%;
-      }
-      .section1 input{
-        width: 60%;
-        }
-      .section2 input{
-      width: 60%;
-      }
     }
+
+    .se3 p {
+        margin-left: 10px;
+        margin-bottom: 40px;
+    }
+
+    .productpay {
+        text-align: center;
+        float: none;
+        width: 100%;
+    }
+
+    .status {
+        margin-top: 20px;
+        width: 100%;
+        float: none;
+    }
+
+}
+
+@media only screen and (max-width: 440px) {
+    .subsc__box, .subscgold__box {
+        width: 80%;
+    }
+
+}
+
+@media only screen and (max-width: 511px) {
+    .wrapper {
+        margin-left: auto;
+        margin-right: auto;
+        width: 90%;
+    }
+
+    .wrapper input {
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .section1 {
+        width: 100%;
+    }
+
+    .section2 {
+        width: 100%;
+    }
+
+    .section1 input {
+        width: 60%;
+    }
+
+    .section2 input {
+        width: 60%;
+    }
+}
