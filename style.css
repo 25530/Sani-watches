@@ -619,6 +619,18 @@ b {
     text-align: center;
 }
 
+.aboutus-knop {
+    text-decoration: none;
+    background-color: #E6C232;
+    border-radius: 4px;
+    color: white;
+    padding: 12px 40px;
+    cursor: pointer;
+    text-align: center;
+    position: absolute;
+    margin-top: 36px;
+}
+
 .section3 .knop {
     float: left;
 }
@@ -641,6 +653,43 @@ a.back {
 a.back:hover {
     color: rgb(52, 77, 189);
 }
+
+.aboutus {
+    padding: 50px;
+}
+
+.aboutus-title {
+    font-size: 30px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #f2f2f2;
+}
+
+.aboutus-us {
+    width: 60%;
+    font-weight: 300;
+    font-size: 20px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+.aboutus-title-2 {
+    font-size: 30px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #f2f2f2;
+    text-align: right;
+    width: 100%;
+}
+
+.aboutus-us-2 {
+    width: 60%;
+    font-weight: 300;
+    font-size: 20px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    text-align: right;
+    float: right;
+}
+
 
 @media only screen and (min-width: 901px) {
     .subsc {
