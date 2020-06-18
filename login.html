@@ -6,15 +6,16 @@
     <title>Page Title</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
-    <script src="main.js"></script>
+    <script src="script.js"></script>
 </head>
+
 <body>
   <section class="home">
 <div class="wrapper">
             <div id="txt"></div>
         <h1>Login to Sani</h1>
         <br>
-        <form class="modal-content animate" action="index.html" method="post">
+        <form class="loginin" action="index.html" method="post">
            
         
             <div class="login">
@@ -27,12 +28,61 @@
                       <a href="wacht.html">Forgot password</a>
                       <a href="wacht.html">Register</a>
               <button type="submit">Login</button>
-              
+            </form>
             </div>
-        
+
+            <button id="myBtn">How does it work?</button>
+          
+            <!-- The Modal -->
+            <div id="myModal" class="modal">
+            
+              <!-- Modal content -->
+              <div class="modal-content">
+                <span class="close">&times;</span>
+                <h3>How does it work?</h3>
+                <p>When you create your account you have 3
+                  plans, each with their own benefits and 
+                  drawbacks.</p>
+                  <br>
+                  <p>Once purchased you get to enjoy the 
+                  benefits that are tied with your plan.</p>
+                  <br>
+                  <p>NOTE: Our site is not accesible without
+                  an account</p>
+              </div>
+            
+            </div>
             
             </div>
           </section>
-          </form>
-       
+          
+
+          <!-- Trigger/Open The Modal -->
+          <script>
+            // Get the modal
+            var modal = document.getElementById("myModal");
+            
+            // Get the button that opens the modal
+            var btn = document.getElementById("myBtn");
+            
+            // Get the <span> element that closes the modal
+            var span = document.getElementsByClassName("close")[0];
+            
+            // When the user clicks the button, open the modal 
+            btn.onclick = function() {
+              modal.style.display = "block";
+            }
+            
+            // When the user clicks on <span> (x), close the modal
+            span.onclick = function() {
+              modal.style.display = "none";
+            }
+            
+            // When the user clicks anywhere outside of the modal, close it
+            window.onclick = function(event) {
+              if (event.target == modal) {
+                modal.style.display = "none";
+              }
+            }
+            </script>
     </div>
