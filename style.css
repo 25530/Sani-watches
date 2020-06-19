@@ -24,6 +24,7 @@ body {
     background-repeat: no-repeat;
     background-position: center center;
     width: 100vw;
+    position: fixed;
     text-align: center;
     padding-top: 12em;
     padding-bottom: 18%;
