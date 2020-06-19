@@ -1,8 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:100,300,300i,400');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
 html {
     scroll-behavior: smooth;
     background-color: #232323;
+    font-family: 'HelveticaNeue';
     color: white;
 }
 
@@ -625,11 +627,11 @@ b {
     background-color: #E6C232;
     border-radius: 4px;
     color: white;
-    padding: 12px 40px;
+    padding: 10px;
+    float: left;
     cursor: pointer;
     text-align: center;
-    position: absolute;
-    margin-top: 36px;
+    margin-top: 46px;
 }
 
 .section3 .knop {
@@ -703,7 +705,7 @@ input[type=text], select, textarea {
 }
 
 input[type=submit] {
-    background-color: #afa31c;
+    background-color: #E6C232;
     color: white;
     padding: 12px 20px;
     border: none;
@@ -795,6 +797,20 @@ button#myBtn:hover{
 }
 .me1 img{
     width: 100%;
+}
+input.veldje {
+    border: 1px solid white;
+    margin: 0;
+    padding: 0;
+    width: 80%;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    background-color: rgba(43, 43, 43, 0);
+    color: white;
+    font-size: 1em;
+    padding-top: 0.5em;
+    margin-bottom: 10px;
 }
 @media only screen and (min-width: 901px) {
     .subsc {
