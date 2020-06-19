@@ -483,6 +483,7 @@ input {
 .singleproduct-imgcont .imgcont {
     box-shadow: 0px 0px 12px 5px rgba(230, 194, 50, 1);
     background-color: #232323;
+    margin-bottom: 50px;
 }
 
 .singleproduct1 .imgcont {
@@ -643,7 +644,7 @@ b {
     margin-left: auto;
     margin-right: auto;
     width: 60%;
-    text-align: left;
+    text-align: center;
 }
 
 a.back {
@@ -691,7 +692,7 @@ a.back:hover {
 }
 
 input[type=text], select, textarea {
-    width: 100%;
+    width: 60%;
     padding: 12px;
     border: 1px solid #ccc;
     border-radius: 4px;
@@ -732,7 +733,9 @@ input[type=submit]:hover {
     background-color: rgb(0,0,0);
     background-color: rgba(0,0,0,0.4);
   }
-  
+  h2.thanksid{
+    text-align: center;
+  }
   /* Modal Content */
 
   .modal-content {
